@@ -17,7 +17,7 @@
 # ==============================================================================
 
 # variables
-$url = "https://chocolateypackages.s3.amazonaws.com/chocolatey.0.9.8.33.nupkg"
+$url = "https://packages.chocolatey.org/chocolatey.0.9.8.33.nupkg"
 if ($env:TEMP -eq $null) {
   $env:TEMP = Join-Path $env:SystemDrive 'temp'
 }
